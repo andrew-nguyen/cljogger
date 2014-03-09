@@ -1,14 +1,22 @@
 # cljogger
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to allow for easy integration of logback
 
 ## Usage
 
-FIXME
+```
+[cljogger "0.1.0"]
+```
+
+Need to use a :refer :all
+
+```
+(:require [cljogger.macros :refer :all])
+```
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014, Andrew Nguyen
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
