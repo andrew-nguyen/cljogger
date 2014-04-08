@@ -1,4 +1,4 @@
-(defproject cljogger "0.1.0"
+(defproject cljogger "0.1.1"
   :description "Very simple interface between clj and logback"
   :url "http://www.github.com/andrew-nguyen/cljogger"
   :license {:name "Eclipse Public License"

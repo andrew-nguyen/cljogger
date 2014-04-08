@@ -1,4 +1,4 @@
-(ns cljogger.macros)
+(ns cljogger.core)
 
 (defn init-logger
   []

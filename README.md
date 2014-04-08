@@ -11,8 +11,13 @@ A Clojure library designed to allow for easy integration of logback
 Need to use a :refer :all
 
 ```clojure
-(:require [cljogger.macros :refer :all])
+(:require [cljogger.core :refer :all])
+...
+(init-logger)
+...
+(log "something" some-symbol)
 ```
+Available: debug, info, warn, error
 
 ## License
 
